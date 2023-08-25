@@ -1,0 +1,341 @@
+body {
+    background-color: rgb(254, 254, 254);
+    margin: 0;
+}
+
+#title {
+    background-color: rgb(253, 255, 219);
+    margin-bottom: 0;
+}
+
+#logo3 {
+    height: 30px;
+    width: 30px;
+    margin: 0.5% 0% 0.5% 2%;
+}
+
+#nav1 {
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    position: sticky;
+    margin: 0;
+    padding: 5px 50px;
+    top: 0;
+    left: 45%;
+}
+
+#header {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    display: flex;
+}
+
+#nav1 li {
+    list-style: none;
+}
+
+#nav1 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#banner {
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top -70px left 0px;
+    background-image: url(images/title2.png);
+}
+
+#banner1 {
+    background-color: #ffecec;
+    background-image: url(images/b3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+#banner h4 {
+    position: absolute;
+    left: 69%;
+    top: 42%;
+}
+
+#ear {
+    width: 15%;
+    height: 22%;
+    position: absolute;
+    left: 53%;
+    top: 32%;
+}
+
+h1 {
+    font-size: 50px;
+    position: absolute;
+    left: 69%;
+    top: 32%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.3rem;
+    margin: 0;
+    padding-top: 4%;
+}
+
+#ban1 h3 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    margin-left: 25%;
+}
+
+h6 {
+    font-size: 29px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: serif;
+}
+
+#ban1 span {
+    color: rgb(152, 4, 4);
+    font-size: 2.8rem;
+}
+
+#ban1 {
+    height: 20vh;
+    width: 80%;
+    margin: 20px auto;
+    padding-top: 25px;
+    border-radius: 5px;
+    background-image: url(images/b2.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+.cost a {
+    color: black;
+}
+
+#footer {
+    height: 500px;
+    background-color: #c3cbbc;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+#brand {
+    display: flex;
+    padding-top: 2%;
+    justify-content: space-between;
+    width: 80%;
+}
+
+#coss li {
+    text-decoration: none;
+    list-style: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+#jewel li {
+    list-style: none;
+}
+
+.footerimg {
+    width: 30px;
+    margin: 2% 1%;
+    height: 30px;
+}
+
+.footerimg:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+}
+
+#support li {
+    list-style: none;
+}
+
+#support a {
+    text-decoration: none;
+    color: black;
+}
+
+table {
+    text-align: center;
+    margin: 3% auto;
+}
+
+tr,
+td {
+    padding: 0%;
+}
+
+.image {
+    border-radius: 10%;
+    border: 1px solid;
+    height: 250px;
+    width: 220px;
+}
+
+#jewellery {
+    padding: 1%;
+    background-color: rgba(245, 245, 245, 0);
+    line-height: 1;
+}
+
+#jewellery .image {
+    border-radius: 10%;
+    border: 1px solid;
+    height: 250px;
+    width: 220px;
+}
+
+#jewellery .img-cart {
+    height: 50px;
+    left: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.box-container {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.box {
+    background-color: #bdaaaa;
+    padding: 1%;
+    border: 1px solid rgb(117, 116, 116);
+    margin: 50px 20px;
+    border-radius: 10%;
+}
+
+.sign {
+    margin: 0;
+    width: 1260px;
+    position: absolute;
+    background-position: top -230px left 0px;
+    background-image: url(images/j15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.signin {
+    background-color: #fef0d5cc;
+    border: 1px solid;
+    width: 30%;
+    height: 55vh;
+    margin: 10% auto;
+    text-align: center;
+}
+
+.signin .btn {
+    height: 40px;
+    width: 130px;
+    margin: 5px 5px 5px 10px;
+    border: 2px solid;
+    background-color: #d6ccb9;
+}
+
+.signin .btn:hover {
+    border-radius: 1px solid;
+    background-color: #7e735d;
+    ;
+}
+
+.box .btn {
+    width: 100px;
+    background-color: #e8e2d400;
+}
+
+.name {
+    font-size: 20px;
+    color: #686662;
+}
+
+.qty {
+    width: 30px;
+}
+
+.box-container1 {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.box1 {
+    background-color: #fafafa;
+    padding: 0.7%;
+    border: 1px solid rgb(117, 116, 116);
+    margin: 50px 20px;
+    border-radius: 10%;
+}
+
+.box1 .image {
+    width: 0px;
+}
+
+.box-container2 {
+    width: 60%;
+    margin: auto;
+}
+
+.box2 {
+    border: 1px solid;
+    padding: 50px;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 p {
+    font-size: large;
+}
+
+.shopping-cart .title {
+    color: #d99100;
+}
+
+.shopping-cart {
+    padding: 5%;
+}
+
+.shopping-cart a {
+    text-decoration: none;
+    color: black;
+}
+
+.option-btn,
+.delete-btn {
+    background-color: #ffebc200;
+    border: 1px solid;
+}
+
+.box3 {
+    margin: 1%;
+    background-color: #ffebc271;
+}
+
+#jewellery #delete {
+    width: 50px;
+    padding: 2%;
+}
+
+.checkout span {
+    padding: 4px;
+}
